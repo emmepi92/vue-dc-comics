@@ -31,7 +31,7 @@ export default {
   .container {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 0;
     align-items: center;
     text-transform: uppercase;
 
