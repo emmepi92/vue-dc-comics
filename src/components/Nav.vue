@@ -6,16 +6,16 @@
 
         <div class="nav-menu">
             <ul>
-                <li>Characters</li>
-                <li>Comics</li>
-                <li>Movies</li>
-                <li>Tv</li>
-                <li>Games</li>
-                <li>Collectibles</li>
-                <li>Videos</li>
-                <li>Fans</li>
-                <li>News</li>
-                <li>Shop</li>
+                <li><a href="#">Characters</a></li>
+                <li><a href="#">Comics</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Tv</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Collectibles</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Fans</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Shop</a></li>
             </ul>
         </div>
     
@@ -38,7 +38,7 @@ export default {
 
         .nav-logo {
             img {
-                width: 100px;
+                width: 80px;
             }
 
         }
@@ -56,6 +56,8 @@ export default {
 
                     &:hover {
                         border-bottom: 4px solid #18f;
+                        cursor: pointer;
+                        color: #08f;
                     }
                 }
             } 

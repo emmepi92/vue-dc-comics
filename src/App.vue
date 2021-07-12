@@ -5,6 +5,7 @@
     <Main />
     <BlueRow />
     <Footer />
+    <BlackRow />
 
   </div>
 </template>
@@ -14,6 +15,7 @@ import Nav from "./components/Nav.vue";
 import Main from "./components/Main.vue";
 import BlueRow from "./components/BlueRow.vue";
 import Footer from "./components/Footer.vue";
+import BlackRow from "./components/BlackRow.vue";
 
 
 
@@ -23,7 +25,8 @@ export default {
     Nav,
     Main,
     Footer,
-    BlueRow
+    BlueRow,
+    BlackRow
   }
 }
 </script>

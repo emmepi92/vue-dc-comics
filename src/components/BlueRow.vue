@@ -49,12 +49,15 @@ export default {
       text-transform: uppercase;
       color: white;
       display: flex;
-      align-items: center;
+      align-items: center;     
 
       img {
         max-height: 40px;
         max-width: 40px;
         margin-right: 10px;
+      }
+      .content-text {
+        white-space: nowrap;
       }
     }
   }
