@@ -1,15 +1,26 @@
 <template>
     <div class="fluid-container">
         <div class="container">
-                --> Content goes here 
+            <Card v-for="comic in comics" :key="comic.series" :comic = 'comic' />
         </div>
 
     </div>    
 </template>
 
 <script>
+import Card from './Card.vue';
+import comicsJson from "../jsons/dc-comics.json"
+
 export default {
-    name:"Main"    
+    name:"Main",
+    components: {
+        Card
+    },
+    data: function () {
+        return {
+            comics:comicsJson
+        }
+    }
 }
 </script>
 
@@ -21,6 +32,8 @@ export default {
 
         .container {
             color: white;
+            display: flex;
+            flex-wrap: wrap;
         }
 
     }
